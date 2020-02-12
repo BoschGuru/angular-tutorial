@@ -1,3 +1,42 @@
-Angular CLI
+Angular Tutorial
 
 Let’s start with the first step, where we’ll install the latest version of Angular CLI.
+
+To install angular to your system, please run following command
+
+$ npm install -g @angular/cli
+
+Check the version of you Angular using the command below
+
+$ ng --version
+
+To create new angular project
+
+$ ng new angular-example
+
+The CLI will prompt you a message and ask whether you would like to add Angular routing. Say Yes. 
+It'll then ask which stylesheet format you would like to use. Choose CSS.
+
+once installed, please run to check the home page of your application
+
+$ cd angular-example  
+$ ng serve
+
+Your Angular web application will be available from the  [http://localhost:4200/] address.
+
+You are now ready for the further step!
+
+Creating new components
+
+Open a new terminal and run the following command:
+$ cd angular-example  
+$ ng g component home
+
+You’ll see the following output in your terminal:
+
+CREATE src/app/home/home.component.html (19 bytes)  
+CREATE src/app/home/home.component.spec.ts (614 bytes)  
+CREATE src/app/home/home.component.ts (261 bytes)  
+CREATE src/app/home/home.component.css (0 bytes)  
+UPDATE src/app/app.module.ts (467 bytes)
+
